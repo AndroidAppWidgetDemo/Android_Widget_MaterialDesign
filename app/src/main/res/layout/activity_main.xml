@@ -1,0 +1,77 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Design Support Library包含8个控件：
+            \n TextInputLayout            带提示风格的EditText
+            \n FloatingActionButton       圆形按钮
+            \n Snackbar                   类似Toast
+            \n TabLayout                  选项卡
+            \n NavigationView             DrawerLayout的SlideMenu
+            \n CoordinatorLayout          超级FrameLayout
+            \n AppBarLayout               滑动Layout
+            \n CollapsingToolbarLayout    可折叠ToolbarLayout" />
+
+        <Button
+            android:id="@+id/SnackbarActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SnackbarActivity" />
+
+        <Button
+            android:id="@+id/TextInputLayoutActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextInputLayoutActivity" />
+
+        <Button
+            android:id="@+id/FloatingActionButtonActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FloatingActionButtonActivity" />
+
+        <Button
+            android:id="@+id/TabLayoutActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TabLayoutActivity" />
+
+        <Button
+            android:id="@+id/NavigationViewActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NavigationViewActivity" />
+
+        <Button
+            android:id="@+id/CoordinatorLayoutBehavior01Activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CoordinatorLayoutBehavior01Activity" />
+
+        <Button
+            android:id="@+id/CoordinatorLayoutBehavior02Activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CoordinatorLayoutBehavior02Activity" />
+
+        <Button
+            android:id="@+id/AppBarLayoutActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AppBarLayoutActivity" />
+
+    </LinearLayout>
+</ScrollView>
+
+
+

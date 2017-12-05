@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/ShowBtn01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ShowBtn01" />
+
+    <Button
+        android:id="@+id/ShowBtn02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ShowBtn01"
+        android:text="ShowBtn02" />
+
+    <Button
+        android:id="@+id/ShowBtn03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ShowBtn02"
+        android:text="ShowBtn03" />
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/CoordinatorLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>
